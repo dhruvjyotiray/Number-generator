@@ -9,7 +9,7 @@ clickCount=0
 executeBtn.addEventListener("click", (event) => {
     clickCount+=1
     
-// function clickFunction(){
+function clickFunction(){
 
   let numToPrint = numInput.value;
 
@@ -62,15 +62,15 @@ if(i==0 || i==1) {
   }
 
 }
-// console.log(clickCount)
-// if (clickCount>0) {
-//     numDisplay.innerHTML = " "
-//     clickCount=0
-//     clickFunction()
+console.log(clickCount)
+if (clickCount>0) {
+    numDisplay.innerHTML = " "
+    clickCount=0
+    clickFunction()
     
-// } else {
-//     clickFunction()
-// }
+} else {
+    clickFunction()
+}
 
 
 
