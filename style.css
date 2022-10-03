@@ -52,13 +52,13 @@ li {
     
 }
 .showcase-prime{
-    background-color:blue;
+    background-color:#ffd000;
    
     height: 20px;
     width: 20px;
     padding: 5px 10px;
     /* margin: 5px; */
-    color: white;
+    color: black;
 }
 
 h1 {
