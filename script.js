@@ -52,7 +52,8 @@ if(i==0 || i==1) {
   }
   
   if (isPrime(i)==true) {
-    numbers.style.backgroundColor = "blue";
+    numbers.style.backgroundColor = "#ffd000";
+    numbers.style.color = "black";
   }
  
 
