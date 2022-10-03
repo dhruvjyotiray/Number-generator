@@ -73,8 +73,8 @@ button {
     background-color: #2db81d;
     color: white;
     border: 0;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 1.3em;
+    padding: 0.3em;
 }
 
 button:hover{
@@ -85,10 +85,12 @@ input {
     box-sizing: border-box;
     width: 500px;
     height: 30px;
+    margin-right: 30px;
 }
 
 #input-btn{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 800px;
 }
